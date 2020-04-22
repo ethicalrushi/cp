@@ -1,0 +1,51 @@
+Link: https://www.hackerrank.com/contests/code-help-4/challenges/lumber-room/problem
+
+
+(Similar): https://www.hackerrank.com/challenges/kindergarten-adventures/problem
+
+Radha coaches a class of m students, and each and every day in her classroom is just like a new experience. Today is art and craft day!
+
+All of them are seated around a round table, and they are marked from 1 to m in the clockwise direction. 
+This means that the students are marked 1,2,3,....,m-1,m, and students 1 and m are sitting next to each other.
+
+After permitting the students to draw for a certain duration, Radha begins collecting their assignments to assure she has enough time to go through all the drawings before the end of the day. However, some of her students aren't done with drawing assignments yet! Each student
+needs i needs ti extra minutes to finish their drawing assignment.
+
+Radha collects the drawings sheets sequentially in the clockwise direction, initiating with student ID a
+, and it takes her exactly 1 minute to go through each drawing. This means that student a gets no extra minutes to complete their drawing, student a+1 gets 1 extra minute, student a+2 gets 2 extra minutes, and so on. Note that Radha will still spend 1 minute for each student even if the drawing isn't ready.
+
+Given the values of t1,t2,t3,...tn, help Radha choose the best possible a to start collecting drawings from, such that the number of students able to complete their drawings is maximal. Then print a on a new line. If there are multiple such IDs, select the smallest one.
+
+Input Format
+
+The first line contains a single positive integer m, denoting the number of students in the class.
+
+The second line contains m space-separated integers describing the respective amounts of time that each student needs to finish their drawings ,i.e. t1, t2, ....tm
+
+Constraints
+
+1<=m<=10**5
+0<=ti<=m
+
+Output Format
+
+Print an integer denoting the ID number a, where Radha should start collecting the drawings such that a maximal number of students can complete their drawings. If there are multiple such IDs, select the smallest one.
+
+Sample Input 0
+
+3
+1 0 0
+
+Sample Output 0
+
+2
+
+Sample Input 1
+
+3
+0 1 2
+
+Sample Output 1
+
+1
+

@@ -1,0 +1,23 @@
+Link: https://csacademy.com/contest/algorithms-2020-04-07-15/task/independent-rectangles/
+
+You are given N rectangles and for each rectangle i you know its width wi and its height hi
+
+We call a rectangle i to be independent if there is no other rectangle j such that wi<wj and hi<hj
+
+Count the number of independent rectangles.
+
+Standard input
+
+The first line contains a single integer N.
+
+Each of the following NNN lines contains two values w and h representing the width and the height of a rectangle.
+
+Standard output
+
+Output a single number representing the number of independent rectangles.
+
+
+Constraints and notes
+
+    1<=N<=10**5
+    1<=wi, hi<=10**6

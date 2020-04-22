@@ -1,0 +1,2 @@
+1) April 2020 Cookoff Div 2 - https://www.codechef.com/COOK117B/problems/MINOPS
+Soluton - file c.py
